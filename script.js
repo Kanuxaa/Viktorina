@@ -231,31 +231,31 @@ btnNode.addEventListener("click", ()=>{
                 yes.style.display="block"
                 answe1.innerText = questions[count-1].answers[0]
                 answe1.style.background = "red"
-                if (variant === '1') answe1.style.background = "green"
+                if (questions[count-1].correctAns === '1') answe1.style.background = "green"
                 answe2.innerText = questions[count-1].answers[1]
                 answe2.style.background = "red"
-                if (variant === '2') answe2.style.background = "green"
+                if (questions[count-1].correctAns === '2') answe2.style.background = "green"
                 answe3.innerText = questions[count-1].answers[2]
                 answe3.style.background = "red"
-                if (variant === '3') answe3.style.background = "green"
+                if (questions[count-1].correctAns === '3') answe3.style.background = "green"
                 answe4.innerText = questions[count-1].answers[3]
                 answe4.style.background = "red"
-                if (variant === '4') answe3.style.background = "green"
+                if (questions[count-1].correctAns === '4') answe3.style.background = "green"
 
             } else {
                 no.style.display="block"
                 answi1.innerText = questions[count-1].answers[0]
                 answi1.style.background = "red"
-                if (variant === '1') answi1.style.background = "green"
+                if (questions[count-1].correctAns === '1') answi1.style.background = "green"
                 answi2.innerText = questions[count-1].answers[1]
                 answi2.style.background = "red"
-                if (variant === '2') answi2.style.background = "green"
+                if (questions[count-1].correctAns === '2') answi2.style.background = "green"
                 answi3.innerText = questions[count-1].answers[2]
                 answi3.style.background = "red"
-                if (variant === '3') answi3.style.background = "green"
+                if (questions[count-1].correctAns === '3') answi3.style.background = "green"
                 answi4.innerText = questions[count-1].answers[3]
                 answi4.style.background = "red"
-                if (variant === '4') answi3.style.background = "green"
+                if (questions[count-1].correctAns === '4') answi3.style.background = "green"
             }
         }
     } else {
