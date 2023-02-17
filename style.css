@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgb(136, 217, 255);
+    background-repeat: no-repeat ;
+}
+
+.box{
+    position: relative;
+    box-sizing: border-box;
+    height: 400px;
+    width: 40%;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: linear-gradient(150deg, rgb(21, 70, 177),rgb(39, 124, 221));
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 5px 10px 30px rgb(0,0,0,1);
+    border: solid black 2px;
+}
+
+.activate{
+    position: absolute;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    z-index: 3;
+    border-radius: 50%;
+}
+
+.question_block{
+    text-align: center;
+    border-bottom: solid black 2px;
+    padding: 10px;
+    min-height: 60px;
+    color: white;
+}
+
+.start{
+    box-sizing: border-box;
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    padding-top: 50px;
+    left: 0; 
+    right: 0; 
+    top: 0;
+    bottom: 0;
+    margin: auto; 
+    color: white;
+}
+
+.start span{
+    line-height: 40px;
+}
+
+#order{
+    text-decoration: underline;
+}
+
+.answers{
+    display: none;
+    flex-direction: column;
+    color: white;
+}
+
+.ans{
+    margin: 15px;
+    padding: 5px;
+    border: solid black 2px;
+    box-shadow: 0px 5px 20px rgb(0,0,0,0.25);
+    background-image: linear-gradient(150deg, rgb(29, 29, 34),rgb(93, 92, 92));
+}
+
+.correct{
+    display: none;
+    box-sizing: border-box;
+    text-align: center;
+    width: 80%;
+    height: 60%;
+    left: 0; 
+    right: 0; 
+    top: 0;
+    bottom: 0;
+    margin: auto; 
+}
+
+.uncorrect{
+    display: none;
+    box-sizing: border-box;
+    text-align: center;
+    width: 80%;
+    height: 60%;
+    left: 0; 
+    right: 0; 
+    top: 0;
+    bottom: 0;
+    margin: auto; 
+}
+
+.next{
+    padding: 0;
+    height: 40px;
+    width: 100%;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: rgb(0, 170, 255);
+    transition: 0.5s;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.next:hover{
+    background-color: rgb(0, 102, 255);
+}
+
+.next:active{
+    animation: none;
+}
+
+.final{
+    box-sizing: border-box;
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    left: 0; 
+    right: 0; 
+    top: 0;
+    bottom: 0;
+    margin: auto; 
+    padding-top: 80px;
+    display: none;
+    color: white;
+}
+
+.final span{
+    line-height: 40px;
+}

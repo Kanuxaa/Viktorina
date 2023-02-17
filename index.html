@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="box">
+        <div class="activate" id="activate"></div>
+        <div class="question_block">
+            <span id="order">Viktorina</span>
+            <br>
+            <span id="question"></span>
+        </div>
+        <div class="start" id="start">
+            <span>Bu viktorinada siz 21 suala cavab verəcəksiz.<br>Uğurlar!</span>
+        </div>
+        <div class="answers" id="allAns">
+            <div class="ans" id="answer1">
+                <input type="radio" name="ans" value="1" id="answ1">
+                <label id="ans1">Ответ1</label><br>
+            </div>
+            <div class="ans" id="answer2">
+                <input type="radio" name="ans" value="2" id="answ2">
+                <label id="ans2">Ответ2</label><br>
+            </div>
+            <div class="ans" id="answer3">
+                <input type="radio" name="ans" value="3" id="answ3">
+                <label id="ans3">Ответ3</label><br>
+            </div>
+            <div class="ans" id="answer4">
+                <input type="radio" name="ans" value="4" id="answ4">
+                <label id="ans4">Ответ4</label><br>
+            </div>
+        </div>
+        <div class="correct answers" id="yes">
+            <div class="ans" id="answe1">
+                <label id="ans1">Ответ1</label><br>
+            </div>
+            <div class="ans" id="answe2">
+                <label id="ans2">Ответ2</label><br>
+            </div>
+            <div class="ans" id="answe3">
+                <label id="ans3">Ответ3</label><br>
+            </div>
+            <div class="ans" id="answe4">
+                <label id="ans4">Ответ4</label><br>
+            </div>
+        </div>
+        <div class="uncorrect answers" id="no" id="allAns">
+            <div class="ans" id="answi1">
+                <label id="ans1">Ответ1</label><br>
+            </div>
+            <div class="ans" id="answi2">
+                <label id="ans2">Ответ2</label><br>
+            </div>
+            <div class="ans" id="answi3">
+                <label id="ans3">Ответ3</label><br>
+            </div>
+            <div class="ans" id="answi4">
+                <label id="ans4">Ответ4</label><br>
+            </div>
+        </div>
+        <button class="next" id="btn">Başla</button>
+        <div class="final" id="summary">
+            <span id="end"></span>
+            <br>
+            <span id="res"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
