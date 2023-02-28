@@ -240,7 +240,7 @@ btnNode.addEventListener("click", ()=>{
                 if (questions[count-1].correctAns === '3') answe3.style.background = "green"
                 answe4.innerText = questions[count-1].answers[3]
                 answe4.style.background = "red"
-                if (questions[count-1].correctAns === '4') answe3.style.background = "green"
+                if (questions[count-1].correctAns === '4') answe4.style.background = "green"
 
             } else {
                 no.style.display="block"
@@ -255,7 +255,7 @@ btnNode.addEventListener("click", ()=>{
                 if (questions[count-1].correctAns === '3') answi3.style.background = "green"
                 answi4.innerText = questions[count-1].answers[3]
                 answi4.style.background = "red"
-                if (questions[count-1].correctAns === '4') answi3.style.background = "green"
+                if (questions[count-1].correctAns === '4') answi4.style.background = "green"
             }
         }
     } else {
