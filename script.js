@@ -69,19 +69,19 @@ const questions = [
     {
         question: "Ümumi isimlərdən biri xüsusi isim kimi işlədilə bilməz:",
         answers: ["odun", "lala", "durna", "aslan"],
-        correctAns: "3"
+        correctAns: "1"
     },
 
     {
         question: "Bu sözlərdən biri Kimdə? sualına cavab verə bilər.",
         answers: ["Dəvədə", "Dələdə", "Nəvədə", "Nağılda"],
-        correctAns: "2"
+        correctAns: "3"
     },
 
     {
         question: "Bu sözlərdən biri Haranı? sualına cavab verə bilər.",
         answers: ["İnsanı", "Küçəni", "Keçini", "uşağı"],
-        correctAns: "3"
+        correctAns: "2"
     },
 
     {
@@ -110,13 +110,13 @@ const questions = [
 
     {
         question: "Lalə nə zaman xüsusi isim kimi işlənə bilər?",
-        answers: ["Qız adı bildirəndə", "Xitab kimi işlənəndə bildirəndə", "Gül adı biləndə", "Əşya bildirəndə"],
+        answers: ["Qız adı bildirəndə", "Xitab kimi işlənəndə bildirəndə", "Gül adı bildirəndə", "Əşya bildirəndə"],
         correctAns: "1"
     },
 
     {
         question: "Cümlələrdən biri isimlə başlayır:",
-        answers: ["Xəstələr palayata köçürüldü.", "İgidlər döyüşdən qələbə ilə döndülər.", " Uşaqlar həyətdə oyun oynayırlar.", "Az danışmaq lazımdır"],
+        answers: ["Xəstələr palataya köçürüldü.", "İgidlər döyüşdən qələbə ilə döndülər.", " Uşaqlar həyətdə oyun oynayırlar.", "Az danışmaq lazımdır"],
         correctAns: "3"
     },
 
